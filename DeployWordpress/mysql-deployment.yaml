@@ -99,5 +99,10 @@ spec:
         ports:
         - containerPort: 80
           name: wordpress
+# minikube start
+# kubectl apply -f mysql-deployment.yaml
 # kubectl port-forward svc/wordpress 8000:80
 # minikube service wordpress --url
+# kubectl get pods,services
+# kubectl apply -f mysql-deployment.yaml
+# minikube stop
