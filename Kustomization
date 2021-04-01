@@ -6,6 +6,7 @@ secretGenerator:
 resources:
   - mysql-deploy.yaml
   - wordpress-deploy.yaml
+  - scaling.yaml
 
 # Teste com minikube
 

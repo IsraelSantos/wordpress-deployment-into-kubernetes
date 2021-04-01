@@ -29,3 +29,7 @@ Para limpar tudo no final basta executar
 
 `$ kubectl delete -k ./`
 `$ minikube stop`
+
+Para testar o auto scaling basta executar o seguinte comando e observar o comportamento na tela administrativa do Kubernetes
+
+`$ kubectl run -i --tty load-generator --rm --image=busybox --restart=Never -- /bin/sh -c "while sleep 0.01; do wget -q -O- http://wordpress; done"`
