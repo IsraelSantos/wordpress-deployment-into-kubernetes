@@ -1,9 +1,9 @@
-### exercicioskubernetes
+# exercicioskubernetes
 Repositório para estudos sobre Kubernets
 
 ## Teste com minikube do exercício DeployWordpress
 
-# Para testar com minikube basta executar os seguintes comandos
+### Para testar com minikube basta executar os seguintes comandos
 
 Iniciar o minikube
 
