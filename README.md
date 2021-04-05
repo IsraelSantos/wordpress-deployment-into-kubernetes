@@ -9,7 +9,7 @@ Iniciar o minikube
 
 `$ minikube start`
 
-Efetuar o deployment
+Efetuar o deployment (esse comando também pode ser usado para deployment na sua núvem caso tenha configurado acesso a um cluster remoto AKS ou EKS ou similares)
 
 `$ kubectl apply -k ./`
 
